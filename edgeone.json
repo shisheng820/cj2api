@@ -8,11 +8,11 @@
   "routes": [
     {
       "source": "/v1/chat/completions",
-      "destination": "/functions/v1/chat/completions"
+      "destination": "/functions/v1/chat"
     },
     {
       "source": "/chat/completions",
-      "destination": "/functions/v1/chat/completions"
+      "destination": "/functions/v1/chat"
     },
     {
       "source": "/v1/models",

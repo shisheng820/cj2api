@@ -1,4 +1,4 @@
-﻿import { handleChatCompletions } from '../../../src/chat';
+import { handleChatCompletions } from '../../src/chat';
 
 export async function onRequest(context: any): Promise<Response> {
   const { request } = context;

@@ -1,4 +1,4 @@
-﻿import { handleModels } from '../../../src/models';
+import { handleModels } from '../../src/models';
 
 export async function onRequest(context: any): Promise<Response> {
   const { request } = context;
