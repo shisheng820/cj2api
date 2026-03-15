@@ -4,10 +4,10 @@
   "description": "基于 ChatJimmy 实现的 OpenAI 兼容 API，支持 Cloudflare Workers 和 EdgeOne Pages。",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shisheng820/cj2api.git"
+    "url": "https://github.com/qingchencloud/cj2api.git"
   },
-  "homepage": "https://github.com/shisheng820/cj2api#readme",
-  "bugs": "https://github.com/shisheng820/cj2api/issues",
+  "homepage": "https://github.com/qingchencloud/cj2api#readme",
+  "bugs": "https://github.com/qingchencloud/cj2api/issues",
   "license": "MIT",
   "author": "QingChen Cloud",
   "keywords": [
