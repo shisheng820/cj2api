@@ -1,0 +1,30 @@
+{
+  "functions": {
+    "node": {
+      "runtime": "nodejs18",
+      "entry": "./functions"
+    }
+  },
+  "routes": [
+    {
+      "source": "/v1/chat/completions",
+      "destination": "/functions/v1/chat/completions"
+    },
+    {
+      "source": "/chat/completions",
+      "destination": "/functions/v1/chat/completions"
+    },
+    {
+      "source": "/v1/models",
+      "destination": "/functions/v1/models"
+    },
+    {
+      "source": "/models",
+      "destination": "/functions/v1/models"
+    },
+    {
+      "source": "/",
+      "destination": "/functions/index"
+    }
+  ]
+}
