@@ -22,7 +22,7 @@
 ### 方式一：部署到 Cloudflare Workers (从 GitHub 克隆)
 
 ```bash
-git clone https://github.com/shisheng820/cj2api.git
+git clone https://github.com/qingchencloud/cj2api.git
 cd cj2api
 npm install
 npx wrangler login    # 首次使用需登录 Cloudflare
@@ -44,7 +44,7 @@ npm run deploy
 
 EdgeOne Pages 提供了更佳的国内访问体验，支持一键部署：
 
-[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fshisheng820%2Fcj2api)
+[![使用 EdgeOne Pages 部署](https://cdnstatic.tencentcs.com/edgeone/pages/deploy.svg)](https://console.cloud.tencent.com/edgeone/pages/new?repository-url=https%3A%2F%2Fgithub.com%2Fqingchencloud%2Fcj2api)
 
 或者手动部署：
 ```bash
@@ -203,7 +203,7 @@ print(response.choices[0].message.content)
 ## 本地开发
 
 ```bash
-git clone https://github.com/shisheng820/cj2api.git
+git clone https://github.com/qingchencloud/cj2api.git
 cd cj2api
 npm install
 npm run dev
