@@ -29,6 +29,8 @@ npx wrangler login    # 首次使用需登录 Cloudflare
 npm run deploy
 ```
 
+部署完成后，Wrangler 会输出你的 Worker URL，形如 `https://cj2api.<你的子域>.workers.dev`。
+
 ### 方式二：从 npm 安装 (Cloudflare)
 
 ```bash
@@ -50,9 +52,11 @@ npm install
 npm run deploy:edgeone
 ```
 
-> **访问提示：**
-> - **Cloudflare**: `*.workers.dev` 域名在国内访问可能不稳定，建议绑定自定义域名走 CDN。
+> **国内访问提示：**
+> - **Cloudflare**: `*.workers.dev` 域名在国内访问可能不稳定，建议绑定自定义域名走 CDN，或通过 Dashboard → Workers → cj2api → Settings → Domains & Routes 绑定域名。
 > - **EdgeOne**: 默认提供国内边缘节点加速，延迟极低，无需额外配置即可直连。
+
+> **提示：** 如客户端要求填写 API Key，随意输入任意字符串即可。
 
 ## API 接口
 
